@@ -1,0 +1,177 @@
+/* Fonts */
+@import url('https://fonts.googleapis.com/css?family=Open+Sans:400,700|Poppins:700');
+
+/* Fontawesome */
+@import url('https://use.fontawesome.com/releases/v5.6.3/css/all.css');
+
+/* other css files references */
+@import url("components/banner.css");
+
+/* Utilities */
+body {
+  margin: 0;
+  font-family: Open Sans;
+  scroll-behavior: smooth;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+h1, h2, h3, h4 {
+  font-family: Poppins;
+}
+
+a {
+  text-decoration: none;
+}
+
+/* Custom design below! *
+/* Fonts */
+@import url('https://fonts.googleapis.com/css?family=Open+Sans:400,700|Poppins:700');
+
+/* Utilities */
+body {
+  margin: 0;
+  font-family: Open Sans;
+  background-image: url(../images/649202.jpeg);
+  background-size: cover;
+  background-position: center;
+}
+
+h1, h2, h3, h4 {
+  font-family: Poppins;
+}
+
+h2, h4 {
+  color: #000000;
+  font-weight: bold;
+}
+
+a {
+  text-decoration: none;
+}
+
+.text-center {
+  text-align: center;
+}
+
+/* Custom design below! */
+
+.container {
+  width: 900px;
+  margin: auto;
+}
+
+.banner {
+  /* background-image: url(../images/649202.jpeg); */
+  /* background-color: white; */
+  /* background-size: cover;
+  background-position: center; */
+  padding: 200px 0;
+  height: 70vh;
+}
+
+.banner h1 {
+  color: #ffffff;
+  margin: 0;
+}
+
+.banner p {
+  color: #000000;
+  opacity: .7;
+  font-size: 20px;
+  margin-top: 0;
+  font-weight: bold;
+
+}
+p {
+    color: #000000;
+    font-weight: bold;
+
+}
+
+.btn-primary{
+  background-color: none;
+  border-radius: 15px;
+  color: #ffffff;
+  border: 1px solid #ffffff;
+  padding: 10px 20px;
+  font-weight: bold;
+  box-shadow: 1px 1px 10px 1px rgb(black, black, black);
+  transition: 0.25s ease;
+}
+
+.btn-primary:hover{
+  background-color: rgba(92, 92, 92, 0.534);
+
+}
+.card img {
+  height: 100px;
+}
+
+.card p {
+  opacity: .5;
+}
+
+.card {
+  width: 200px;
+  border-radius: 50px;
+  box-shadow: 0 0 5px rgb(0, 0, 0);
+  text-align: center;
+  padding: 20px;
+  /* border: 20px solid rgb(#000000); */
+  border:none
+}
+
+.cards {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 30px;
+}
+
+.footer {
+  text-align: center;
+  padding: 60px;
+}
+
+.footer a {
+  font-size: 30px;
+  color:  #000000;
+}
+
+.footer p {
+  color: #6B6C6C;
+}
+
+.footer .fas {
+  color: #BF0F12;
+}
+
+@media (max-width: 960px) {
+  /* For a screen < 960px, this CSS will be read */
+  .container {
+    width: 700px;
+  }
+  .cards{
+    flex-direction: column;
+    align-items: center;
+  }
+  .card{
+    margin-bottom: 20px;
+    width: 280px;
+    height: 300px;
+  }
+}
+@media (max-width: 720px) {
+  /* For a screen < 720px, this CSS will be read */
+  .container {
+    width: 500px;
+  }
+}
+@media (max-width: 540px) {
+  /* For a screen < 540px, this CSS will be read */
+  .container {
+    width: 300px;
+  }
+}
